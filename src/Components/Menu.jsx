@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Menu() {
     return (
-        <div className="h-screen bg-gray-800 text-white flex flex-col items-center justify-center">
+        <div className="h-screen bg-[url('/src/assets/wordle-background.jpg')] text-white flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold mb-8">Welcome to the Game Menu</h1>
             <div className="flex flex-col gap-4">
                 <Link to="/wordle">
